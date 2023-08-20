@@ -6,7 +6,7 @@ import { NavLink, useParams } from "react-router-dom";
 const Download = () => {
     const { id } = useParams()
     const [series, setseries] = useState({})
-   
+
 
     useEffect(() => {
         fetch(`http://localhost:9000/seriesfilter/${id}`)
@@ -21,21 +21,21 @@ const Download = () => {
                     <NavLink to={"/"}><button type="button" className="btn btn-success">HOME</button></NavLink>
                 </div>
                 <div className="downtitle">
-                    <p>{series.title}</p>
+                    <p>{series.title}</p> 
                 </div>
                 <hr />
                 <div className="image">
                     {
-                        series.image && series.image.slice(0, 1).map((e,i) => {
+                        series.image && series.image.slice(0, 1).map((e, i) => {
                             return (
-   
+
                                 <img src={e} className="img3" key={i} />
 
                             )
 
                         })
                     }
-                   
+
                 </div>
                 <hr />
                 <div className="txtealin">
@@ -50,13 +50,13 @@ const Download = () => {
                     <p className="text2">Screen Shot</p>
                 </div>
                 <div className="short">
-                    {series.image && series.image.slice(1, 4).map((e,i) => {
+                    {series.image && series.image.slice(1, 4).map((e, i) => {
                         return (
-                            <img src={e} className="image1" key={i}/>
+                            <img src={e} className="image1" key={i} />
                         )
 
-                    })}
-
+                    })
+                    }
                 </div>
                 <hr />
                 <div >
@@ -64,8 +64,8 @@ const Download = () => {
                 </div>
                 <div className="btn4">
                     {
-                        series.file && series.file.slice(0,0).map((e,i)=>{
-                            return(
+                        series.file && series.file.slice(0, 0).map((e, i) => {
+                            return (
                                 <a href={e} download={true} key={i}> <button type="button" className="btn btn-success">Download</button></a>
                             )
                         })

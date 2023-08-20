@@ -9,7 +9,9 @@
 
 }
 .downtitle{
-    padding: 1.5rem;
+    width: 32rem;
+    text-align: center;
+    word-break: break-all;
 }
 .image{
     margin-left: 7rem;
@@ -44,7 +46,6 @@ span{
 .image1{
     width: 90%;
     height: 20rem;
-    margin-left: 2.7rem;
     margin-bottom: 1rem;
 }
 .btn4{
@@ -55,4 +56,7 @@ span{
 .btn5{
     text-align: center;
     padding-top: 2rem;
+}
+.short{
+    text-align: center;
 }
