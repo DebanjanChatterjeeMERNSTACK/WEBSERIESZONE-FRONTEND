@@ -1,0 +1,58 @@
+.download{
+    width: 32rem;
+    margin: 0 auto;
+}
+.downtitle p{
+    font-size: 2rem;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+.downtitle{
+    padding: 1.5rem;
+}
+.image{
+    margin-left: 7rem;
+     padding-bottom: 2rem;
+}
+.img3{
+    width: 20rem;
+    height: 30rem;
+}
+.txtealin{
+    text-align: center;
+}
+.name{
+    font-size: 2rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+.txt1{
+    font-size:1.3rem;
+    font-weight: bold;
+    color: rgb(189, 189, 189);
+}
+span{
+    color: rgb(255, 0, 242);
+}
+.text2{
+    color: green;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.image1{
+    width: 90%;
+    height: 20rem;
+    margin-left: 2.7rem;
+    margin-bottom: 1rem;
+}
+.btn4{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.btn5{
+    text-align: center;
+    padding-top: 2rem;
+}
